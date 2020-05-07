@@ -1,6 +1,6 @@
 package Interview_Question;
 
-public class JavaQuestion_Pal {
+public class JavaQuestion_Palindrome {
 
 	public static void main(String[] args) {
 		
@@ -18,17 +18,14 @@ public class JavaQuestion_Pal {
 			b = data.charAt(i);
 
 			if(String.valueOf(a).equalsIgnoreCase((String.valueOf(b)))) {
+				System.out.println("equal");
+			}	
 				
-			} else {
+			else {
 				System.out.println("not");
 			}
 		}
 
-		
-		
-		
-		
-		
 		
 		
 		

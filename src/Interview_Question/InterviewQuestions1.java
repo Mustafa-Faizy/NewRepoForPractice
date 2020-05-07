@@ -126,14 +126,28 @@ public class InterviewQuestions1 {
 	System.out.println( new StringBuffer(String.valueOf(number)).reverse());
 		
 		
+	int number1 = 1234567;
+	
+	
+	System.out.println(new StringBuffer(String.valueOf(number1)).reverse());
+	
+	
+		
+	String reverseing = "HELLO WORLD";	
+	
+	StringBuffer goBoy = new StringBuffer(reverseing).reverse();
+		
+		
+		System.out.println(goBoy);
 		
 		
 		
 		
+		String mur = "MURTAZA";
 		
+		StringBuffer re = new StringBuffer(mur).reverse();
 		
-		
-		
+		System.out.println(re);
 		
 		
 		
